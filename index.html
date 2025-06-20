@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daf Yomi with Rabbi Moshe Mustacchi</title>
+    <link rel="icon" type="image/jpeg" href="DAFYOMIMosheMustacchiLOGO.jpg">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            line-height: 1.6;
+            color: #34495e;
+            padding: 2rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: clamp(1.8rem, 5vw, 2.5rem);
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: clamp(1rem, 3vw, 1.2rem);
+            margin-bottom: 1.5rem;
+            max-width: 800px;
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 1.5rem;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: clamp(0.9rem, 2.5vw, 1rem);
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .logo {
+            max-width: 100%;
+            width: clamp(150px, 30vw, 200px);
+            margin-bottom: 1.5rem;
+        }
+        .button-icon {
+            width: clamp(18px, 3vw, 20px);
+            margin-right: 0.5rem;
+        }
+        @media (max-width: 600px) {
+            .button-container {
+                flex-direction: column;
+            }
+            .button {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="DAFYOMIMosheMustacchiLOGO.jpg" alt="Daf Yomi Logo" class="logo">
+        <h1>Daf Yomi with Rabbi Moshe Mustacchi</h1>
+        <p>Join Rabbi Moshe Mustacchi’s fast, clear, and high-quality Daf Yomi shiur, featuring authentic Sephardic pronunciation. Quicker than other "Quick Daf" options, it’s perfect for Sephardim and anyone seeking efficient Talmud study. Delivered a day early with crisp audio, it’s ideal for learning on the go. Now’s the perfect time to join the 14th Daf Yomi cycle (2020–2027). Start today!</p>
+        <div class="button-container">
+            <a href="https://podcasts.apple.com/us/podcast/daf-yomi-with-rabbi-moshe-mustacchi/id1493850850" class="button">
+                <img src="applepodcastlogo.png" alt="Apple Podcasts" class="button-icon"> Listen on Apple Podcasts
+            </a>
+            <a href="https://open.spotify.com/show/5oESbPJbb6R4exm925pfk0" class="button">
+                <img src="spotifylogo.png" alt="Spotify" class="button-icon"> Listen on Spotify
+            </a>
+        </div>
+    </div>
+</body>
+</html>
