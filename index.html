@@ -27,6 +27,7 @@
             max-width: 1200px;
             width: 100%;
             margin: 0 auto;
+            text-align: center;
         }
         h1 {
             color: #2c3e50;
@@ -37,6 +38,8 @@
             font-size: clamp(1rem, 3vw, 1.2rem);
             margin-bottom: 1.5rem;
             max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
         }
         .button-container {
             display: flex;
@@ -47,12 +50,11 @@
         .button {
             display: inline-flex;
             align-items: center;
-            padding: 0.75rem 1.5rem;
+            padding: 0.75rem;
             background-color: #3498db;
             color: white;
             text-decoration: none;
             border-radius: 5px;
-            font-size: clamp(0.9rem, 2.5vw, 1rem);
             transition: background-color 0.3s;
         }
         .button:hover {
@@ -64,8 +66,7 @@
             margin-bottom: 1.5rem;
         }
         .button-icon {
-            width: clamp(18px, 3vw, 20px);
-            margin-right: 0.5rem;
+            width: clamp(30px, 5vw, 40px); /* Larger icons for buttons */
         }
         @media (max-width: 600px) {
             .button-container {
@@ -86,10 +87,10 @@
         <p>Join Rabbi Moshe Mustacchi’s fast, clear, and high-quality Daf Yomi shiur, featuring authentic Sephardic pronunciation. Quicker than other "Quick Daf" options, it’s perfect for Sephardim and anyone seeking efficient Talmud study. Delivered a day early with crisp audio, it’s ideal for learning on the go. Now’s the perfect time to join the 14th Daf Yomi cycle (2020–2027). Start today!</p>
         <div class="button-container">
             <a href="https://podcasts.apple.com/us/podcast/daf-yomi-with-rabbi-moshe-mustacchi/id1493850850" class="button">
-                <img src="applepodcastlogo.png" alt="Apple Podcasts" class="button-icon"> Listen on Apple Podcasts
+                <img src="applepodcastlogo.png" alt="Apple Podcasts" class="button-icon">
             </a>
             <a href="https://open.spotify.com/show/5oESbPJbb6R4exm925pfk0" class="button">
-                <img src="spotifylogo.png" alt="Spotify" class="button-icon"> Listen on Spotify
+                <img src="spotifylogo.png" alt="Spotify" class="button-icon">
             </a>
         </div>
     </div>
